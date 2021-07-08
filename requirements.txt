@@ -1,2 +1,7 @@
+opencv_python==4.5.2.54
+cloudinary==1.26.0
+matplotlib==3.4.2
 Flask==2.0.1
-gunicorn
+numpy==1.19.5
+python-dotenv==0.18.0
+gunicorn==19.9.0
