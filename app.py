@@ -15,11 +15,11 @@ load_dotenv()
 app = Flask(__name__)
 
 
-labelsPath = 'weed/obj.names'
+labelsPath = 'obj.names'
 print(labelsPath)
 # load weights and cfg
-weightsPath = 'weed/crop_weed_detection.weights'
-configPath = 'weed/crop_weed.cfg'
+weightsPath = 'crop_weed_detection.weights'
+configPath = 'crop_weed.cfg'
 LABELS = open(labelsPath).read().strip().split("\n")
 
 
